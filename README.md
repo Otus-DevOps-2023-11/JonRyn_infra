@@ -1,2 +1,2 @@
 # JonRyn_infra
-HostPanties Infra repository
+JonRyn Infra repository
