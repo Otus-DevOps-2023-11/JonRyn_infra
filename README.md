@@ -1,11 +1,13 @@
 # JonRyn_infra
 JonRyn Infra repository
 
-
+1.
 подключение к удаленной машине одной командой
 ssh -J appuser@158.160.105.9 appuser@10.128.0.20
 ssh -A -t appuser@158.160.105.9 ssh -A appuser@10.128.0.20
 
+
+2.
 подключение через алиас
 joni@joni-VirtualBox:~/.ssh$ cat ./config
 Host bastion
@@ -23,7 +25,7 @@ Host someinternalhost
 joni@joni-VirtualBox:~/.ssh$ ssh someinternalhost
 
 
-
+3.
 
 добавление сертификата через nip.io:
 1) поставили certbot
@@ -33,6 +35,7 @@ joni@joni-VirtualBox:~/.ssh$ ssh someinternalhost
 4) после этого подключение к серверу через web-брайзер по адресу 158.160.105.9.nip.io.
 
 
+4.
 
 bastion_IP = 158.160.105.9
 someinternalhost_IP = 10.128.0.20
