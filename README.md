@@ -2,12 +2,6 @@
 JonRyn Infra repository
 
 
-testapp_IP = 158.160.105.9
-testapp_port = 22
-
-
-
-
 подключение к удаленной машине одной командой
 ssh -J appuser@158.160.105.9 appuser@10.128.0.20
 ssh -A -t appuser@158.160.105.9 ssh -A appuser@10.128.0.20
@@ -37,3 +31,8 @@ joni@joni-VirtualBox:~/.ssh$ ssh someinternalhost
 	sudo certbot certonly --standalone
 3) сгенерировали для doname_name = 158.160.105.9.nip.io
 4) после этого подключение к серверу через web-брайзер по адресу 158.160.105.9.nip.io.
+
+
+
+bastion_IP = 158.160.105.9
+someinternalhost_IP = 10.128.0.20
