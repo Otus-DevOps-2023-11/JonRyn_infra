@@ -1,8 +1,4 @@
 {
-    "variables": {
-            "image_description": null,
-            "instance_name": null
-        },
     "builders": [
         {
             "type": "yandex",
@@ -13,8 +9,6 @@
             "ssh_username": "ubuntu",
             "platform_id": "standard-v1",
             "use_ipv4_nat": "true",
-            "image_description": "{{user 'image_description'}}",
-            "instance_name": "{{user 'instance_name'}}",
             "image_name": "reddit-base-{{timestamp}}"
         }
     ],
