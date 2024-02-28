@@ -19,7 +19,7 @@ Host someinternalhost
 	HostName 10.128.0.20
 	User appuser
 	IdentityFile ~/.ssh/id_ed25519
-	ProxyJump appuser@158.160.105.9
+	ProxyJump appuser@158.160.97.156
 
 
 joni@joni-VirtualBox:~/.ssh$ ssh someinternalhost
