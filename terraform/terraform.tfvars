@@ -1,0 +1,7 @@
+cloud_id        = "b1g7htvkb4lqsibcnfl0"
+folder_id       = "b1g6d2os0e03fvosisbq"
+zone            = "ru-central1-a"
+image_id        = "fd8361l2u2l4mjhj09qp"
+public_key_path = "~/.ssh/appuser.pub"
+subnet_id       = "e9biv05ge38j96v8dmns"
+#service_account_key_file = "key.json"

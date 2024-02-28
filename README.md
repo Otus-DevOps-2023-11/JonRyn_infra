@@ -39,3 +39,12 @@ joni@joni-VirtualBox:~/.ssh$ ssh someinternalhost
 
 bastion_IP = 158.160.97.156
 someinternalhost_IP = 10.128.0.20
+
+
+5.
+testapp_IP = 158.160.120.223
+testapp_port = 9292
+
+
+7.
+были проблемы с установкой packer-а, качал с зеркала Яндекса.
